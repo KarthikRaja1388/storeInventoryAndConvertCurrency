@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Convert to INR</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="add-product-container">
+        <div class="form-group">
+          <input
+            type="text"
+            class="product-name"
+            placeholder="Name of the product"
+          />
+          <input
+            type="text"
+            name="product-price"
+            class="product-price"
+            placeholder="product price"
+          />
+          <button class="btn product-add__btn">Add</button>
+        </div>
+      </section>
+      <section class="display-product">
+        <div class="convert-currency">
+          <h3>Convert price to INR</h3>
+          <button class="btn btn-convert-currency">Convert</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>Name</td>
+              <td class="product-currency">Price (USD)</td>
+            </tr>
+          </thead>
+          <tbody class="product-list"> </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

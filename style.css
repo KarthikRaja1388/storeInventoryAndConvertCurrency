@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.add-product-container,
+.display-product {
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 0 5px #d2dae2;
+  padding: 2rem;
+}
+.form-group > input {
+  border: none;
+  padding: 0.5rem;
+  box-shadow: 0 0 2px #808e9b;
+}
+.form-group > input:focus {
+  outline: none;
+}
+
+table {
+  min-width: 100%;
+  background-color: #1e272e;
+  color: #d2dae2;
+  text-align: center;
+}
+tbody > tr:hover {
+  background-color: #d2dae2;
+  color: #1e272e;
+}
+td {
+  padding: 0.5rem 0;
+  border: 1px solid #d2dae2;
+}
+.display-product {
+  flex-direction: column;
+  min-width: 650px;
+}
+.convert-currency {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn {
+  width: 100px;
+  padding: 0.5rem;
+  border: none;
+  background-color: #1e272e;
+  color: #d2dae2;
+  cursor: pointer;
+  box-shadow: 0 0 2px #808e9b;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover,
+.btn:active {
+  background-color: #485460;
+}
